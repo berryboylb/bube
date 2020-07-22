@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width:  100%;
+}
+.firstnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: white;
+    height: 120px;
+    border-bottom: 2px solid black;
+}
+.firstnav img {
+    height: 100px;
+    
+}
+.firstnav h1 {
+    font-size: 40px;
+}
+#twitter {
+    font-size: 40px;
+    height: 40px;
+}
+.firstsec h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.level {
+    width: 90%;
+    border: 2px solid #000;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.level h4 {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.level p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 2%;
+}
+.level div {
+    background-color: blue;
+    
+    text-align: center;
+    
+    width: 100%;
+    padding: 1%;
+}
+.level div a {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+form {
+    display: block;
+    padding: 5%;
+    margin-top: 3%;
+}
+form h2 {
+    text-align: center;
+}
+form  input {
+    width: 100%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+    font-size: 18px;
+}
+form .submit {
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    background-color: blue;
+    color: #ffff;
+}
+form p {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2%;
+    color: red;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons i {
+    color: white;
+    font-size: 50px;
+    margin-top: 2%;
+}
+.icons i a {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-top: 0;
+    text-decoration: none;
+}
+.firstsec {
+    margin-top: 3%;
+}
+
+.networks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 1%;
+}
+.networks button {
+    height: 100px;
+    width: 15%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.MTN {
+    background-color: yellow;
+}
+.AIRTEL {
+    background-color: RED;
+}
+.GLO {
+    background-color: yellowgreen;
+}
+.MOBILE {
+    background-color: green;
+}
+footer {
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .firstnav {
+        width: 100%;
+        height: 70px;
+    }
+    .firstnav img {
+        height: 50px;
+    }
+    .firstnav h1 {
+        font-size: 20px;
+    }
+    #twitter {
+        font-size: 30px;
+    }
+    .firstsec h2 {
+        font-size: 20px;
+    }
+    .level {
+        font-size: 16px;
+    }
+    .level p {
+        font-size: 18px;
+        margin-top: 2%;
+    }
+    .level div a {
+        font-size: 18px;
+    }
+    form h2 {
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+    form input {
+        padding: 2%;
+        font-size: 16px;
+        margin-bottom: 3%;
+    }
+    form p {
+        font-size: 18px;
+    }
+    .networks{
+        height: 50px;
+    }
+    .networks button {
+        height: 30px;
+        font-size: 9px;
+    }
+    footer {
+        font-size: 18px;
+    }
+}

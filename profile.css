@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+}
+header {
+    width:  100%;
+}
+.firstnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: white;
+    height: 120px;
+    border-bottom: 2px solid black;
+}
+.firstnav img {
+    height: 100px;
+    
+}
+.firstnav h1 {
+    font-size: 40px;
+}
+#twitter {
+    font-size: 40px;
+    height: 40px;
+}
+header h2 {
+    border-bottom:  2px solid black;
+    text-align: center;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons i {
+    color: white;
+    font-size: 50px;
+    margin-top: 2%;
+}
+.icons i a {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-top: 0;
+    text-decoration: none;
+}
+.firstsec {
+    margin-top: 3%;
+}
+.firstsec img {
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+    padding: 3%;
+    
+}
+.HOW  {
+    border: 3px solid black;
+    background-color: white;
+    height: 50px;
+    padding: 3%;
+    width: 19%;
+    margin-left: 40%;
+}
+.stuffs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.stuffs button {
+    border: 3px solid black;
+    background-color: white;
+    height: 100px;
+    padding: 3%;
+    width: 22%;
+}
+.networks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 1%;
+}
+.networks button {
+    height: 100px;
+    width: 15%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.MTN {
+    background-color: yellow;
+}
+.AIRTEL {
+    background-color: RED;
+}
+.GLO {
+    background-color: yellowgreen;
+}
+.MOBILE {
+    background-color: green;
+}
+footer {
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .firstnav {
+        width: 100%;
+        height: 70px;
+    }
+    .firstnav img {
+        height: 50px;
+    }
+    .firstnav h1 {
+        font-size: 20px;
+    }
+    #twitter {
+        font-size: 30px;
+    }
+    .firstsec img {
+        height: 200px;
+    }
+    .icons i {
+        font-size: 24px;
+    }
+    .icons i a {
+        font-size: 18px;
+    }
+    .HOW {
+        width: 30%;
+        font-size: 12px;
+        padding: 0;
+        margin-left: 35%;
+        height: 35px;
+    }
+    .stuffs button {
+        padding: 0;
+        font-size: 12px;
+        width: 30%;
+        height: 49px;
+    }
+    .networks{
+        height: 50px;
+    }
+    .networks button {
+        height: 30px;
+        font-size: 9px;
+    }
+    footer {
+        font-size: 18px;
+    }
+}

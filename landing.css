@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+}
+/*---------landing page styles starts here---------*/
+.secondnav {
+    margin-top: 3%;
+    height: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+.secondnav button {
+    /* height: 40px; */
+    align-items: center;
+    padding: 2%;
+    width: 20%;
+    position: relative;
+    margin-top: -1%;
+    font-size: 24px;
+    color:white;
+    background-color: darkblue;
+}
+.firstsec {
+    margin-top: 3%;
+}
+.firstsec img {
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+    padding: 3%;
+    
+}
+.HOW  {
+    border: 3px solid black;
+    background-color: white;
+    height: 50px;
+    padding: 3%;
+    width: 19%;
+    margin-left: 40%;
+}
+.stuffs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.stuffs button {
+    border: 3px solid black;
+    background-color: white;
+    height: 100px;
+    padding: 3%;
+    width: 22%;
+}
+.networks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 1%;
+}
+.networks button {
+    height: 100px;
+    width: 15%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.MTN {
+    background-color: yellow;
+}
+.AIRTEL {
+    background-color: RED;
+}
+.GLO {
+    background-color: yellowgreen;
+}
+.MOBILE {
+    background-color: green;
+}
+footer {
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .secondnav {
+        height: 30px;
+    }
+    .secondnav button {
+        padding: 0%;
+        font-size: 12px;
+    }
+    .firstsec img {
+        height: 200px;
+    }
+    .HOW {
+        width: 30%;
+        font-size: 12px;
+        padding: 0;
+        margin-left: 35%;
+        height: 35px;
+    }
+    .stuffs button {
+        padding: 0;
+        font-size: 12px;
+        width: 30%;
+        height: 49px;
+    }
+    .networks{
+        height: 50px;
+    }
+    .networks button {
+        height: 30px;
+        font-size: 9px;
+    }
+    footer {
+        font-size: 18px;
+    }
+}
